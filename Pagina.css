@@ -1,0 +1,163 @@
+/* Estilos generales */
+
+body {
+
+    font-family: 'Arial', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background: #F9F9F9; /* Fondo gris claro */
+
+    color: #333;
+
+}
+
+
+
+/* Encabezado */
+
+header {
+
+    background: #34495E; /* Azul oscuro */
+
+    color: white;
+
+    padding: 20px 0;
+
+    text-align: center;
+
+    
+
+}
+
+
+
+h1 {
+
+    margin: 0;
+
+    text-shadow: 1px 1px ;
+
+    text-decoration: overline;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    
+
+
+
+}
+
+
+
+/* Navegación */
+
+nav {
+
+    margin-top: 10px;
+
+}
+
+
+
+nav ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+
+
+nav ul li {
+
+    display: inline;
+
+    margin: 0 15px;
+
+}
+
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: color 0.3s;
+
+}
+
+
+
+nav a:hover {
+
+    color: #BDC3C7; /* Gris claro al pasar el mouse */
+
+}
+
+
+
+/* Secciones */
+
+section {
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    max-width: 800px;
+
+    background-color: #FFFFFF; /* Fondo blanco */
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+section h2 {
+
+    color: #2C3E50; /* Azul más oscuro */
+
+}
+
+
+
+/* Listas */
+
+ul, ol {
+
+    padding-left: 20px;
+
+}
+
+
+
+/* Pie de página */
+
+footer {
+
+    text-align: center;
+
+    padding: 15px 0;
+
+    background: #34495E; /* Azul oscuro */
+
+    color: white;
+
+    position: relative;
+
+    bottom: 0;
+
+    width: 100%;
+
+}
